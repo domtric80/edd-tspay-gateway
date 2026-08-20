@@ -4,6 +4,9 @@ Plugin WordPress indipendente che aggiunge **TS Pay** a Easy Digital Downloads 3
 
 Documentazione di riferimento: [Onboarding e autenticazione](https://tspay.stoplight.io/docs/ts-pay/ea584d632ef57-onboarding-e-autenticazione), [Incasso e-commerce immediato](https://tspay.stoplight.io/docs/ts-pay/q1me0pm73775g-incasso-e-commerce-con-addebito-immediato), [POS digitale](https://tspay.stoplight.io/docs/ts-pay/dlb8vc8cyopq5-pos-digitale) e [Notifiche](https://tspay.stoplight.io/docs/ts-pay/g3ly0lilrng40-notifiche).
 
+- [Guida completa di installazione e configurazione](docs/INSTALLAZIONE.md)
+- [Release e download del plugin](https://github.com/domtric80/edd-tspay-gateway/releases)
+
 ## Perché non usa il “POS digitale” statico
 
 Il POS digitale TS Pay richiede al pagatore di digitare importo e causale e, secondo la documentazione TS Pay, non prevede riconciliazione automatica. Un checkout EDD deve invece trasmettere un importo non modificabile e collegare in modo certo il pagamento all'ordine. Per questo il gateway usa `POST /orders/link2pay`, quindi verifica `GET /charges/orders/{orderKey}` e riceve gli eventi `tspay_charge.*` via webhook.
