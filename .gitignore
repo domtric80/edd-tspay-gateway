@@ -1,0 +1,7 @@
+/.env
+/.idea/
+/.vscode/
+/dist/*.zip
+/wordpress/wp-content/plugins/easy-digital-downloads/
+!/wordpress/wp-content/plugins/.gitkeep
+
