@@ -17,7 +17,7 @@ TS Pay accetta e gestisce i dati di pagamento sulla propria pagina ospitata. Il 
 ## 2. Download e installazione
 
 1. Aprire la pagina [Releases](https://github.com/domtric80/edd-tspay-gateway/releases).
-2. Scaricare `edd-tspay-0.1.0.zip` dalla release più recente.
+2. Scaricare l'asset `edd-tspay-0.1.1.zip` (o una versione successiva) dalla release più recente. Non scaricare **Source code (zip)**, che contiene l'intero repository e non è un pacchetto plugin WordPress.
 3. In WordPress aprire **Plugin > Aggiungi plugin > Carica plugin**.
 4. Selezionare lo ZIP senza estrarlo, scegliere **Installa ora** e poi **Attiva plugin**.
 5. Verificare che Easy Digital Downloads sia già installato e attivo.

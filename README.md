@@ -54,7 +54,7 @@ Il webhook rifiuta richieste senza firma o con HMAC-SHA256 non valido (`X-Messag
 .\scripts\package.ps1
 ```
 
-Il risultato viene scritto in `dist/edd-tspay-0.1.0.zip`.
+Il risultato viene scritto in `dist/edd-tspay-0.1.1.zip`. Lo script verifica che i percorsi interni usino separatori compatibili con WordPress su Linux.
 
 ## Struttura
 

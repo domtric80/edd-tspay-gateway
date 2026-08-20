@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TS Pay for Easy Digital Downloads
  * Description: Gateway TS Pay con incasso e-commerce immediato, verifica server-to-server e webhook firmati per Easy Digital Downloads.
- * Version:     0.1.0
+ * Version:     0.1.1
  * Author:      TS Pay EDD Integration
  * Text Domain: edd-tspay
  * Domain Path: /languages
@@ -14,7 +14,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'EDD_TSPAY_VERSION', '0.1.0' );
+define( 'EDD_TSPAY_VERSION', '0.1.1' );
 define( 'EDD_TSPAY_FILE', __FILE__ );
 define( 'EDD_TSPAY_DIR', plugin_dir_path( __FILE__ ) );
 

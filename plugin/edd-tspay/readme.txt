@@ -4,7 +4,7 @@ Tags: easy digital downloads, edd, payment gateway, tspay, teamsystem
 Requires at least: 6.2
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,9 +52,12 @@ La versione 0.1.0 riceve lo stato refunded da TS Pay, ma non avvia ancora un rim
 
 == Changelog ==
 
+= 0.1.1 =
+
+* Corretto il formato dello ZIP per l'installazione su server Linux.
+
 = 0.1.0 =
 
 * Prima implementazione del gateway LinkToPay.
 * Ritorno verificato server-to-server.
 * Webhook firmato e validazione ordine/importo/valuta.
-
